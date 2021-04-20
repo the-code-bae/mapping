@@ -7,10 +7,10 @@ with open("README.md", "r") as fh:
 setuptools.setup(
      name='mapping',  
      version='v0.0.1',
-     scripts=['dokr'] ,
+     # scripts=['dokr'] ,
      author="Maka I",
      author_email="nibe12@live.com",
-     license="MIT"
+     license="MIT",
      description="First package evs",
      long_description=long_description,
    long_description_content_type="text/markdown",
