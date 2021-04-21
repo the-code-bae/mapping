@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='mi-property-analyser',  
-     version='v0.0.1',
+     version='v0.0.2',
      author="Maka I",
      author_email="nibe12@live.com",
      license="MIT",
@@ -16,7 +16,7 @@ setuptools.setup(
      url="https://github.com/the-code-bae/mi-property-analyser",
      packages=setuptools.find_packages(),
      python_requires=">=3.5",
-     install_requires=["requests", "geopy", "collections", "re", "requests", "pandas"],
+     install_requires=["requests", "geopy", "os", "re", "requests", "pandas"],
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
