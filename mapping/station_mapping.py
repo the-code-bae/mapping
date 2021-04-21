@@ -8,11 +8,11 @@
 # In[1]:
 
 
-import pandas as pd
+# import pandas as pd
 import requests
 from geopy import distance
 import re
-
+import london_stations as ls
 
 # In[2]:
 
@@ -22,7 +22,7 @@ import re
 
 # TODO join station data to tube line data using TFL api to get info
 # Also replace hard coded file with retrieving lat/lon from TFL api
-london_stations_df = pd.read_csv('london_stations.csv')
+london_stations_df = ls.load_london_stations()
 
 
 # In[3]:
