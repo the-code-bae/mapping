@@ -32,4 +32,6 @@ setuptools.setup(
          "Topic :: Software Development :: Libraries :: Python Modules",
          "Intended Audience :: Developers"
      ],
+     include_package_data = True,
+     package_data={'': ['data/*.csv']}
  )
