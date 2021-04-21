@@ -5,16 +5,15 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-     name='mapping',  
+     name='mi-property-analyser',  
      version='v0.0.1',
-     # scripts=['dokr'] ,
      author="Maka I",
      author_email="nibe12@live.com",
      license="MIT",
      description="First package evs",
      long_description=long_description,
    long_description_content_type="text/markdown",
-     url="https://github.com/the-code-bae/mapping",
+     url="https://github.com/the-code-bae/mi-property-analyser",
      packages=setuptools.find_packages(),
      python_requires=">=3.5",
      install_requires=["requests", "geopy", "collections", "re", "requests", "pandas"],
