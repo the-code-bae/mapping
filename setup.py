@@ -16,7 +16,6 @@ setuptools.setup(
      url="https://github.com/the-code-bae/mi-property-analyser",
      packages=setuptools.find_packages(),
      python_requires=">=3.5",
-     install_requires=["requests", "geopy", "os", "re", "requests", "pandas"],
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
