@@ -6,7 +6,7 @@ import os
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 
-with open(os.path.join(DIR, "docs", "README.md"), "r") as f:
+with open(os.path.join(DIR, "README.md"), "r") as f:
     long_description = f.read()
 with open(os.path.join(DIR, "requirements.txt"), "r") as f:
     REQUIRED = [i for i in f.read().split("\n") if len(i)]
