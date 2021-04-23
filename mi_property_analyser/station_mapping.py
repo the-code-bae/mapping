@@ -12,7 +12,7 @@
 import requests
 from geopy import distance
 import re
-import london_stations as ls
+import .london_stations as ls
 
 # In[2]:
 
