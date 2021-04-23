@@ -23,7 +23,7 @@ setuptools.setup(
    long_description_content_type="text/markdown",
      url="https://github.com/the-code-bae/mi-property-analyser",
      packages=setuptools.find_packages(include=['mi-property-analyser']),
-     install_requires=REQUIRED
+     install_requires=REQUIRED,
      python_requires=">=3.5",
      classifiers=[
          "Programming Language :: Python :: 3",
