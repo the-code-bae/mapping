@@ -21,7 +21,7 @@ setuptools.setup(
      description="First package evs",
      long_description=long_description,
    long_description_content_type="text/markdown",
-     url="https://github.com/the-code-bae/mi-property-analyser",
+     url="https://github.com/the-code-bae/mi_property_analyser",
      packages=setuptools.find_packages(include=['mi_property_analyser']),
      install_requires=REQUIRED,
      python_requires=">=3.5",
