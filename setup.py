@@ -13,7 +13,7 @@ with open(os.path.join(DIR, "requirements.txt"), "r") as f:
 
 
 setuptools.setup(
-     name='mi-property-analyser',  
+     name='mi_property_analyser',  
      version='v0.0.4',
      author="Maka I",
      author_email="nibe12@live.com",
@@ -22,7 +22,7 @@ setuptools.setup(
      long_description=long_description,
    long_description_content_type="text/markdown",
      url="https://github.com/the-code-bae/mi-property-analyser",
-     packages=setuptools.find_packages(include=['mi-property-analyser']),
+     packages=setuptools.find_packages(include=['mi_property_analyser']),
      install_requires=REQUIRED,
      python_requires=">=3.5",
      classifiers=[
