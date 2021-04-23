@@ -14,7 +14,7 @@ with open(os.path.join(DIR, "requirements.txt"), "r") as f:
 
 setuptools.setup(
      name='mi-property-analyser',  
-     version='v0.0.3',
+     version='v0.0.4',
      author="Maka I",
      author_email="nibe12@live.com",
      license="MIT",
